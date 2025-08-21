@@ -1,7 +1,6 @@
 import Image, { type StaticImageData } from 'next/image';
 import React from 'react';
 import { observer } from 'mobx-react-lite';
-import { uiStore } from '@/stores/uiStore';
 
 type SpeechBubbleProps = {
     src: StaticImageData | string;
